@@ -1,0 +1,83 @@
+/* App.css */
+
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Center the app */
+body {
+  background: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.App {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 400px;
+}
+
+/* Title */
+.App h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Input */
+.App input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.App input:focus {
+  border-color: #007bff;
+}
+
+/* Button */
+.App button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+.App button:hover {
+  background: #0056b3;
+}
+
+/* Shortened link */
+.App p {
+  margin-top: 1.2rem;
+  font-size: 14px;
+  color: #333;
+}
+
+.App a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.App a:hover {
+  text-decoration: underline;
+}
